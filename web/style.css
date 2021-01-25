@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	user-select: none;
+}
+
+head, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: linear-gradient(45deg, #F5A25D, #FA7F72);
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+	max-width: 1980px;
+	margin: 0 auto;
+}
+
+
+/* HEADER */
+.header {
+	background-color: #EBEBEB;
+	min-height: calc(100vh * 0.0833333333333333);
+	margin-bottom: calc(100vh * 0.0333333333333333);
+}
+
+.header img {
+	width: calc(100vw * 0.0911458333333333);
+	margin-top: calc(100vh * 0.0242248062015504);
+	margin-left: calc(100vw * 0.0130208333333333);
+}
+
+.rmwallpaper {
+	float: right;
+	border: none;
+	width: calc(100vw * 0.15625);
+	min-height: calc(100vh * 0.05);
+	margin-top: calc(100vh * 0.0166666666666667);
+	margin-right: calc(100vw * 0.03125);
+	font-size: calc(100vw * 0.01125);
+	border-radius: 5px;
+	background-color: #389393;
+	color: #EBEBEB;
+}
+
+.rmwallpaper:hover {
+	background-color: #368a8a;
+}
+
+/* Wallpaper Videos */
+
+.wallpaper_video {
+	min-width: calc(100vw * 0.3125);
+	min-height: calc(100vh * 0.4411111111111111);
+	background-color: #EBEBEB;
+	border-radius: 10px;
+	margin-bottom: calc(100vh * 0.0333333333333333);
+	margin-left: calc(100vw * 0.0125);
+	display: inline-block;
+}
+
+.wallpaper_video video {
+	width: calc(100vw * 0.270625);
+	max-height: calc(100vh * 0.2777777777777778);
+	margin-left: calc(100vw * 0.020625);
+	margin-top: calc(100vh * 0.02);
+	border-radius: 5px;
+}
+
+.wallpaper_video h2 {
+	margin-left: calc(100vw * 0.020625);
+	margin-top: calc(100vh * 0.0122222222222222);
+	margin-bottom: calc(100vh * 0.0333333333333333);
+	font-size: calc(100vh * 0.0244444444444444);
+	color: #FA7F72;
+}
+
+.setwallpaper {
+	border: none;
+	background-color: #389393;
+	color: #EBEBEB;
+	border-radius: 7px;
+	width: calc(100vw * 0.135625);
+	min-height: calc(100vh * 0.0444444444444444);
+	float: right;
+	margin-right: calc(100vw * 0.020625);
+	font-size: calc(100vw * 0.01125);
+}
+
+.setwallpaper:hover {
+	background-color: #368a8a;
+}
+
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+	}
+}
