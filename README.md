@@ -6,3 +6,6 @@ Run main.py to run the program.
 
 If you need to add a new video to the program, just add it to the web/video.
 The file name cannot contain spaces.
+
+The program needs the eel module to work
+`pip install eel`
